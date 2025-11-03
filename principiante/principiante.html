@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz de Cultura General</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="quiz-container">
+    <form id="quizForm">
+        <!-- Pregunta 1 -->
+        <div class="question">
+            <label for="q1">1) ¿Cuál es la capital de Francia? <img src="Imagenes/paris.jpg" alt="Paris" class="question-image"> </label>
+            <input type="text" id="q1" required>
+        </div>
+
+        <!-- Pregunta 2 -->
+        <div class="question">
+            <label for="q2">2) ¿Quién escribió "Don Quijote de la Mancha"? <img src="Imagenes/descarga.jpeg" alt="Don Quijote" class="question-image"> </label>
+            <input type="text" id="q2" required>
+        </div>
+
+        <!-- Pregunta 3 -->
+        <div class="question">
+            <label for="q3">3) ¿En qué año comenzó la Segunda Guerra Mundial?<img src="Imagenes/9d0e6118709999.562cdfc8dd3ff.png" alt="Segunda Guerra Mundial" class="question-image"> </label>
+            <input type="text" id="q3" required>
+        </div>
+
+        <!-- Pregunta 4 -->
+        <div class="question">
+            <label for="q4">4) ¿Cuál es el símbolo químico del agua? <img src="Imagenes/agua.jpg" alt="Agua" class="question-image"> </label>
+            <input type="text" id="q4" required>
+        </div>
+
+        <!-- Pregunta 5 -->
+        <div class="question">
+            <label for="q5">5) ¿Qué planeta es conocido como 'el planeta rojo'? <img src="Imagenes/Sistema-solar-e1518703599328-800x433.jpg" alt="Marte" class="question-image"> </label>
+            <input type="text" id="q5" required>
+        </div>
+
+        <!-- Pregunta 6 -->
+        <div class="question">
+            <label for="q6">6) ¿Quién pintó la Mona Lisa? <img src="Imagenes/descarga (1).jpeg" alt="Mona Lisa" class="question-image"> </label>
+            <input type="text" id="q6" required>
+        </div>
+
+        <!-- Pregunta 7 -->
+        <div class="question">
+            <label for="q7">7) ¿Cuál es el río más largo del mundo? <img src="Imagenes/60383afdf330d.jpeg" alt="Amazonas" class="question-image"> </label>
+            <input type="text" id="q7" required>
+        </div>
+
+        <!-- Pregunta 8 -->
+        <div class="question">
+            <label for="q8">8) ¿En qué continente se encuentra el desierto del Sahara? <img src="Imagenes/descarga (2).jpeg" alt="Sahara" class="question-image"> </label>
+            <input type="text" id="q8" required>
+        </div>
+
+        <!-- Pregunta 9 -->
+        <div class="question">
+            <label for="q9">9) ¿Cuál es la montaña más alta del mundo? <img src="Imagenes/Fondo-del-Valle-Qda-Vacas-A-Barros-700x524.jpg" alt="Monte Everest" class="question-image"> </label>
+            <input type="text" id="q9" required>
+        </div>
+
+        <!-- Pregunta 10 -->
+        <div class="question">
+            <label for="q10">10) ¿Cuál es el quinto elemento en la tabla periódica? <img src="Imagenes/tabla-periodica-de-los-elementos.webp" alt="Boro" class="question-image"> </label>
+            <input type="text" id="q10" required>
+        </div>
+        
+        <button type="submit" class="submit-button">Enviar respuestas</button>
+    </form>
+
+    <div class="result-container" id="resultContainer">
+        <h2>Resultados:</h2>
+        <p id="correctAnswers">Respuestas correctas: </p>
+        <p id="incorrectAnswers">Respuestas incorrectas: </p>
+    </div>
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>

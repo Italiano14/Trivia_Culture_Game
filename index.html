@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <link rel="icon" type="image/png" href="AIMG/Preguntados-entrada.png">
+    <script src="https://kit.fontawesome.com/10ccdb8fcf.js" crossorigin="anonymous"></script>
+    <title>Trivia Cultural</title>
+</head>
+
+<body>
+    <section class="s1">
+        <h1>Trivia Cultural</h1>
+        <h2>¿Qué trivia quieres jugar?</h2>
+        <div class="button-container">
+            <div class="dropdown">
+                <button id="nivelButton" class="button">Nivel</button>
+                <div class="dropdown-content">
+                    <a href="#" class="level-button" data-level="principiante">Principiante</a>
+                    <a href="#" class="level-button" data-level="intermedio">Intermedio</a>
+                    <a href="#" class="level-button" data-level="avanzado">Avanzado</a>
+                </div>
+            </div>
+
+
+        </div>
+    </section>
+
+    <section>
+        <img src="AIMG/Captura.PNG" alt="Nivel Principiante" class="level-image" id="imagen-principiante">
+        <img src="AIMG/Captura1.PNG" alt="Nivel Intermedio" class="level-image" id="imagen-intermedio">
+        <img src="AIMG/Captura2.PNG" alt="Nivel Avanzado" class="level-image" id="imagen-avanzado">
+
+        <div id="nivelSeleccionado">
+            <span><em><b>Selecciona un nivel</b></em></span>
+            <div class="icon">
+                <i class="fa-solid fa-chevron-up fa-beat"></i>
+            </div>
+            <span style="display: block;"><em>Haga click arriba</em></span> 
+        </div>
+    </section>
+
+
+    <button class="confirm-button" disabled>
+        <span></span>
+        <span></span>
+        <span></span>
+        <span></span>
+        Confirmar Nivel
+    </button>
+
+    <script src="index.js"></script>
+</body>
+
+</html>
